@@ -55,9 +55,17 @@ main section ol{
 main section ol li{
     font-size: 1.5rem;
     list-style: none;
-    padding: 2rem 0 1rem 0;
+    padding: 2rem 0 2rem 0;
+    border: 2px solid;
 }
+
 
 main section ol li span{
     background-color: rgb(199, 199, 199);
+}
+main section ol li:hover + img{
+    display: inline-block;
+}
+main section ol img{
+    display: none;
 }

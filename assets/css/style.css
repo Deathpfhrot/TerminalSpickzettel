@@ -2,4 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background: url(../img/nutsandbots.png) no-repeat top/cover;
+}
+h1{
+    font-size: 5rem;
+    margin: 3%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    margin: 10%;
+}
+
+main a{
+    font-size: 3rem;
+    margin: 0 10%;
+    text-decoration: none;
+}
+
+main a:first-child{
+    color: rgb(66, 152, 250);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main a:last-child{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main a:hover{
+    text-decoration: underline;
 }

@@ -1,5 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*Header*/
+
+header{
+    background: url(../img/github.png);
+    color: white;
+    padding: 3%;
+}
+
+header h1, h2{
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+header h2{
+    font-weight: 400;
+}
+
+/*Main*/
+
+main{
+    margin: 2% 2%;
+    position: relative;
+}
+
+main section:nth-child(1) img{
+    position: absolute;
+    right: 200px;
+    top: -2rem;
+    width: 450px;
+    height: 300px;
+}
+main section:nth-child(1) p{
+    line-height: 2rem;
+    margin-left: 3%;
+    width: 50%;
+}
+
+main section:nth-child(2) article{
+    display: inline-block;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+main section:nth-of-type(2) img:nth-of-type(1){
+    width: 50%;
+    height: 30%;
 }

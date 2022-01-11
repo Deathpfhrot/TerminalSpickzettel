@@ -10,7 +10,94 @@
 </head>
 
 <body>
-
+    <header>
+        <h1>GitHub</h1>
+        <h2>Git Cheat Sheet</h2>
+    </header>
+    <main>
+        <section>
+            <h2>Was ist Git?</h2>
+            <p>Git ist ein verteiltes Versionskontrollsystem zur Verwaltung von Quellcode.</p>
+            <p>Ok, was ist also Versionskontrolle? Einfach ausgedrükt, ist die Versionskontrolle ein System zur
+                Verfolgung
+                von Änderungen an Dateien. Wenn wir Dateien ändern, zeichnet das Versionskontrollsystem jede Änderung
+                auf
+                und speichert sie. Auf diese Weise können wir jederzeit iene frühere Version unseres Codes
+                wiederherstellen.
+            </p>
+            <img src="assets/img/versionControl.png" alt="version">
+        </section>
+        <section>
+            <article>
+                <ol>
+                    <li>Git Takes snapshots</li>
+                    <p>Save snapshots to your history to retrace your steps.</p>
+                    <li>Order wich coordination:</li>
+                    <p>In a centralized system, you can objectivle call versions a numerical progression: version1, 2, 3
+                        ...</p>
+                    <li>Working in parallel: order without coordination</li>
+                    <p>Git goes after this idea of distributed version control, so you can keep track of your versions
+                        without coordination</p>
+                    <li>Git is like a desk</li>
+                    <p>Working directory, Stagin area, Repository</p>
+                    <li>Git Flussdiagramm</li>
+                    <img src="assets/img/gitFlussdiagramm.png" alt="diagramm">
+                </ol>
+            </article>
+            <article>
+                <ol>
+                    <h3>Command Lines</h3>
+                    <p><b>git init</b></p>
+                    <p>Du kannst einen neuen Repo von Grund auf neu erstellen.</p>
+                    <p><b>git add & git commit</b></p>
+                    <p>Du kannst Änderungen vorschlagen (zum Index hinzufügen) mit</p>
+                    <p><b>git add < dateiname> git add .</b></p>
+                    <p>
+                        Du bestätigst deine Änderungen mit:</p>
+                    <p><b>git commit -m "Commit-Nachricht"</b></p>
+                    <p>
+                        Jetzt befindest sich
+                        die Änderung im HEAD, aber noch nicht im entfernten Repository.</p>
+                    <p><b>git commit</b></p>
+                    <p>Kommentieren der hochgeladenen datei</p>
+                    <p><b>git push</b></p>
+                    <p>änderungen hoch laden push = Upload!</p>
+                    <p><b>git remote</b></p>
+                    <p>Wenn du dein lokales Repository nicht von einem entfernten geklont hast und du diese aber mit
+                        einem anderen Repository verbinden möchtest, musst du diese mit git remomte add orgigin server
+                        hinzufügen</p>
+                    <p><b>git tag & git log</b></p>
+                    <p>Du kannst einen Tag mit "git tag" erstellen und erhältst die Liste der Commit-IDs mit "git log".
+                    </p>
+                    <p><b>git pull</b></p>
+                    <p>Immer wenn jemand seine Änderugn in das freigegeben Remote- Repository verschiebt, wird dein
+                        lokales Repository veraltet um sie zu aktualliesen füre einfach die aktion "git pull" aus. Pull
+                        = Download!</p>
+                    <p><b>git clone</b></p>
+                    <p>ein repository auschecken erstelle eine Arbeitskopie, indem du folgenden Befehl ausführst</p>
+                    <p><b>git clone /pfad/zum/repository</b></p>
+                    <p>falls
+                </ol>
+            </article>
+            <article>
+                <ol>
+                    <h3>Branching</h3>
+                    <p>Branches werden benutzt, um verschiedene Funktionen isoliert voneinander zu entwickeln. Der
+                        <i>main</i>-Branch ist der "Standard"-Branch, wenn du ein neues repository erstellst. Du
+                        solltest aber für die Entwicklung andere Branches verwenden und diese dann in den Main-Branch
+                        zusammenführen (mergen).
+                    </p>
+                    <img src="assets/img/Branch.png" alt="branch">
+                    <p>In a centralized system, you can objectivle call versions a numerical progression: version1, 2, 3
+                        ...</p>
+                    <li></li>
+                </ol>
+            </article>
+        </section>
+    </main>
+    <footer>
+        ^
+    </footer>
 
 
 
